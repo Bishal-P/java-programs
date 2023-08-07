@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class reverseOfNumber {
+public class reverseOfNumberWithPalindrome {
     public static void main(String[] args) {
         int a;
         Scanner sc=new Scanner(System.in);
