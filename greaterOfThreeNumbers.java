@@ -21,6 +21,5 @@ public class greaterOfThreeNumbers {
             System.out.println("The greatest number is :"+c);
         }
         sc.close();
-        
     }
 }
