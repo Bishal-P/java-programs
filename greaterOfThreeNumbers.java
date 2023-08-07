@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class greaterOfThreeNumbers {
     public static void main(String[] args) {
         int a,b,c;
+        // System.out.println("Enter ");
         a=50000;
         b=609;
         c=70;
