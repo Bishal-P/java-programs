@@ -1,13 +1,13 @@
 public class staticChecking {
     public static void main(String[] args) {
-        Student a=new Student("Bishal", 1);
+        Student a=new Student("Bishal",1);
         System.out.println("Static value ="+Student.college);
         Student.college="BPPIMT";
         System.out.println("Static value ="+Student.college);
         Student b=new Student("Bishal2", 2);
         System.out.println("Static value ="+b.college);
         Student.changeCollegeName("aec");
-        System.out.println("Static value ="+a.college);
+        System.out.println("Static value ="+Student.college);
 
     }
 }
