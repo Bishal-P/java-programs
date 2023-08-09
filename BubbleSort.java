@@ -9,17 +9,17 @@ public class BubbleSort {
                     int temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
-                    flag=0;
+                    // flag=0;
                 }
-                else{
-                    flag=1;
-                }
+                // else{
+                //     flag=1;
+                // }
                 j++;
 
             }
-            if(flag==1){
-                break;
-            }
+            // if(flag==1){
+            //     break;
+            // }
             i++;
         }
         i=0;
