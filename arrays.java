@@ -12,6 +12,7 @@ public class arrays {
         }
         sc.close();
         i=0;
+        int sum=0;
         System.out.print("The entered array is :");
         while(i<10){
             System.out.print(arr[i]+" ");
