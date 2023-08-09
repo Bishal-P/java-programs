@@ -23,5 +23,4 @@ class Student{
     static void changeCollegeName(String newName){
         college=newName;
     }
-
 }
