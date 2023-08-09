@@ -12,7 +12,6 @@ public class staticChecking {
     }
 }
 
-
 class Student{
     String x;
     int y;
