@@ -8,6 +8,7 @@ public static void main(String[] args) {
 }
 
 class first{
+    
     String name,clas;
     first(){
         System.out.println("First");
