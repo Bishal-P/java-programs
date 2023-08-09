@@ -18,7 +18,6 @@ public class primeNumberOrNot {
             }
             i++;
         }
-        
         }
         if(flag==1){
             System.out.println("The number is not prime ");
