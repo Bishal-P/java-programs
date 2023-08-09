@@ -4,8 +4,8 @@ public class staticChecking {
         System.out.println("Static value ="+Student.college);
         Student.college="BPPIMT";
         System.out.println("Static value ="+Student.college);
-        Student b=new Student("Bishal2", 2);
-        System.out.println("Static value ="+b.college);
+        // Student b=new Student("Bishal2", 2);
+        System.out.println("Static value ="+Student.college);
         Student.changeCollegeName("aec");
         System.out.println("Static value ="+Student.college);
 
