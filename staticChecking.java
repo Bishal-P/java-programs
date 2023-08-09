@@ -1,6 +1,6 @@
 public class staticChecking {
     public static void main(String[] args) {
-        Student a=new Student("Bishal",1);
+        // Student a=new Student("Bishal",1);
         System.out.println("Static value ="+Student.college);
         Student.college="BPPIMT";
         System.out.println("Static value ="+Student.college);
