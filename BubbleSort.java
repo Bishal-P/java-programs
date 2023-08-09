@@ -1,7 +1,8 @@
 public class BubbleSort {
     public static void main(String[] args) {
         int arr[]=new int[]{34,5,3,2,56,24,70};
-        int i=0,j=0,flag=0;
+        int i=0,j=0;
+        // int flag=0;
         while(i<arr.length-1){
             j=0;
             while(j<arr.length-i-1){
