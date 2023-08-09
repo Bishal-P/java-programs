@@ -1,6 +1,7 @@
 public class constructors {
     public static void main(String[] args) {
-        test a=new test();
+        // test a=new test();
+
         System.out.println(test.test);
         
     } 
