@@ -21,6 +21,5 @@ public class BinarySearch {
             System.out.println("Enter the element not found");
         else
             System.out.println("Element found at index :"+index);
-
     }
 }
