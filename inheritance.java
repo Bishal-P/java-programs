@@ -16,7 +16,6 @@ class first{
     
 }
 
-
 class second extends first{
     second(String n,String c){
         name=n;
