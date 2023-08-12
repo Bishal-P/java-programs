@@ -1,8 +1,8 @@
 public class vowelsAndConsonent {
     public static void main(String[] args) {
-        String str="aeiou";
-        int cons,vowel,len,i=0,num;
-        cons=vowel=num=0;
+        String str="aeiou 1234 @#$%^";
+        int cons,vowel,len,i=0,num,spec;
+        cons=vowel=num=spec=0;
         str=str.toUpperCase();
         len=str.length();
         while(i<len){
@@ -16,10 +16,13 @@ public class vowelsAndConsonent {
             else if(val>=48 && val <=57){
                 num++;
             }
+            else{
+                spec++;
+            }
             i++;
             
         }
-        System.out.println("vowels =="+vowel+" & consonent ="+cons+" & numbers ="+num);
+        System.out.println("vowels =="+vowel+" & consonent ="+cons+" & numbers ="+num+" & special ="+spec);
 
     }
 }
