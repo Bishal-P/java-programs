@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class vowelsAndConsonent {
     public static void main(String[] args) {
-        String str="aeiou 1234 @#$%^";
+        String str=new String();
+        System.out.print("Enter the string :");
+        Scanner sc =new Scanner(System.in);
+        str=sc.nextLine();
         int cons,vowel,len,i=0,num,spec;
         cons=vowel=num=spec=0;
         str=str.toUpperCase();
