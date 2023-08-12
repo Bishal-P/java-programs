@@ -27,6 +27,7 @@ public class vowelsAndConsonent {
             i++;
             
         }
+        sc.close();
         System.out.println("vowels =="+vowel+" & consonent ="+cons+" & numbers ="+num+" & special ="+spec);
 
     }
