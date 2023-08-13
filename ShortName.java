@@ -29,6 +29,7 @@ public class ShortName {
             }
             
         }
+        sc.close();
         shortname=shortname.concat(name.substring(surname));
         System.out.println("The shortname is "+shortname);
     }
