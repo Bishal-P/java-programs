@@ -18,7 +18,6 @@ public class arrays {
             System.out.print(arr[i]+" ");
             sum += arr[i];
             i++;
-            
         }
         System.out.println();
         System.out.println("The sum of the array is :"+sum);
