@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class armstrongNumber {
     public static void main(String[] args) {
         int num,z,i=0,sum=0;
-        
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number :");
         num=sc.nextInt();
