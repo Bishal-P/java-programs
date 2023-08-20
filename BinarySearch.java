@@ -17,7 +17,6 @@ public class BinarySearch {
                 }
             }
         }
-        
         if(index==-1)
             System.out.println("Enter the element not found");
         else
